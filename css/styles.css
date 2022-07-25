@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(
+      45deg,
+      rgb(255, 26, 102) 0%,
+      rgba(255, 26, 102, 0) 70%
+    ),
+    linear-gradient(135deg, rgb(6, 67, 249) 10%, rgba(6, 67, 249, 0) 80%),
+    linear-gradient(225deg, rgb(13, 242, 89) 10%, rgba(13, 242, 89, 0) 80%),
+    linear-gradient(315deg, rgb(249, 158, 31) 100%, rgba(249, 158, 31, 0) 70%);
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 700px;
+  font-size: 20px;
+  line-height: 2;
+  position: relative;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+}
+
+.highlight {
+  transition: all 0.2s;
+  border-bottom: 2px solid white;
+  position: absolute;
+  top: 0;
+  background: white;
+  left: 0;
+  z-index: -1;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 70px 0;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 10px;
+  color: black;
+}
