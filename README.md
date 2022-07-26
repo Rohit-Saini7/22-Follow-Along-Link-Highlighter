@@ -4,7 +4,7 @@ Date: July 25, 2022
 
 # TwentySecond challange of [JavaScript30](https://javascript30.com/)
 
-This challange is about trackng mouse cursor and highlighting links with a follow along highlighter. Location permission is required for its proper finctioning. To experience on your own visit [here](https://rohit-saini7.github.io/22-Follow-Along-Link-Highlighter/).
+This challange is about trackng mouse cursor and highlighting links with a follow along highlighter. To experience on your own visit [here](https://rohit-saini7.github.io/22-Follow-Along-Link-Highlighter/).
 
 ## What is JavaScript 30
 
